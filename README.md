@@ -9,13 +9,14 @@ SemEval is an international semantic evaluation workshop series that provides st
 ---
 
 ## 📂 Repository Structure
+```
 .
 ├── dev_data
 ├── README.md
 ├── sample_data
 ├── test_data
 └── train_data
-
+```
 Each data split consists of two files:
 - `questions.jsonl`: event descriptions and multiple-choice options  
 - `docs.json`: retrieved contextual documents for each event
@@ -23,7 +24,6 @@ Each data split consists of two files:
 ---
 
 ## 📌 Data Format
-### Questions File (`questions.jsonl`)
 ### Questions File (`questions.jsonl`)
 
 Each line in `questions.jsonl` is a JSON object representing one multiple-choice reasoning instance.
@@ -105,7 +105,7 @@ Each instance is scored as follows:
 
 The final system score is computed as the **average score across all evaluation instances**.
 
-## 🆚Codabench Competition
+## 🆚 Codabench Competition
 The official evaluation for SemEval-2026 Task 12 is hosted on Codabench.
 
 🔗 Competition page:
