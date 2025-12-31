@@ -4,7 +4,7 @@
 This repository contains the dataset for **SemEval-2026 Task 12: Abductive Event Reasoning (AER)**, a shared task focused on evaluating language models’ ability to perform real-world event causal inference.  
 The task requires systems to identify the most plausible direct cause of a given event based on retrieved contextual documents.
 
-SemEval is an international semantic evaluation workshop series that provides standardized tasks and shared datasets for NLP research. Task 12 is part of the SemEval-2026 workshop lineup. :contentReference[oaicite:0]{index=0}
+SemEval is an international semantic evaluation workshop series that provides standardized tasks and shared datasets for NLP research. Task 12 is part of the SemEval-2026 workshop.
 
 ---
 
@@ -51,7 +51,7 @@ Fields:
     - Contains one or more correct option labels, comma-separated (e.g., "A,B").
     - Removed in the test split.
 
-### Context File (docs.json)
+### Context File (`docs.json`)
 Each record in the docs file contains background context for an event:
 ```json
 {
