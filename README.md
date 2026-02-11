@@ -109,6 +109,6 @@ The final system score is computed as the **average score across all evaluation 
 The official evaluation for SemEval-2026 Task 12 is hosted on Codabench.
 
 🔗 Competition page:
-https://www.codabench.org/competitions/12440/
+https://www.codabench.org/competitions/12446/
 
 Participants are required to submit prediction files following the competition guidelines.
