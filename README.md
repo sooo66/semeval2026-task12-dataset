@@ -112,3 +112,16 @@ The official evaluation for SemEval-2026 Task 12 is hosted on Codabench.
 https://www.codabench.org/competitions/12446/
 
 Participants are required to submit prediction files following the competition guidelines.
+
+## Cite
+```
+@article{cao2026aer,
+  title        = {SemEval-2026 Task 12: Abductive Event Reasoning: Towards Real-World Event Causal Inference for Large Language Models},
+  author       = {Cao, Pengfei and Yang, Mingxuan and Chen, Yubo and Zhang, Chenlong and Liu, Mingxuan and Liu, Kang and Zhao, Jun},
+  year         = {2026},
+  eprint       = {2603.21720},
+  eprinttype   = {arxiv},
+  eprintclass  = {cs.CL},
+  url          = {https://arxiv.org/abs/2603.21720}
+}
+```
